@@ -1,0 +1,27 @@
+.card-block{
+    overflow: auto;
+    background: #aaa;
+}
+
+.card-footer{
+    min-height: 210px;
+    overflow: auto;
+}
+.card-footer label, .card-footer input, .card-footer button{
+    font-size: 0.8rem;
+}
+
+.card-footer .form-group
+{
+    margin-bottom: 0.4rem;
+}
+
+.card-footer .input-group.tabs{
+    position: absolute;
+    bottom: 210px;
+    left:0px;
+
+}
+.card-footer .input-group.tabs .btn{
+   
+}

@@ -1,0 +1,39 @@
+<!-- <div class="card main-container">
+  <div class="card-block" *ngIf="viewList"> -->
+<br>
+<form method="post" class="container" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+  <div class="row">
+      <div class="form-group col-md-12" [ngClass]="{ 'has-danger': f.submitted && customerId.invalid }">
+        <label for="customerId">Identificación *</label>
+        <input type="number" class="form-control" maxlength="50" required="required" [(ngModel)]="customer.customerId" 
+          name="customerId" [attr.disabled]="customer.createOn == '' ? null: 'disabled'"
+          id="customerId" #customerId="ngModel">
+      </div>
+    <div class="form-group col-md-12" [ngClass]="{ 'has-danger': f.submitted && customerName.invalid }">
+      <label for="customerName">Nombre *</label>
+      <input type="text" class="form-control" maxlength="50" required="required" [(ngModel)]="customer.name" name="customerName"
+        id="customerName" #customerName="ngModel">
+    </div>
+    <div class="form-group col-md-12" [ngClass]="{ 'has-danger': f.submitted && customerDescription.invalid }">
+      <label for="customerDescription">Descripción</label>
+      <input type="text" class="form-control" [(ngModel)]="customer.description" maxlength="150" name="customerDescription" #customerDescription="ngModel">
+    </div>
+    <div class="form-group col-md-12" [ngClass]="{ 'has-danger': f.submitted && customerAddress.invalid }">
+      <label for="customerAddress">Dirección</label>
+      <input type="text" class="form-control" [(ngModel)]="customer.address" maxlength="50" name="customerAddress" #customerAddress="ngModel">
+    </div>
+    <div class="form-group col-md-12" [ngClass]="{ 'has-danger': f.submitted && customerPhone.invalid }">
+      <label for="customerPhone">Teléfono</label>
+      <input type="text" class="form-control" [(ngModel)]="customer.phone" maxlength="50" name="customerPhone" #customerPhone="ngModel">
+    </div>
+  </div>
+  <ul class="nav navbar-nav navbar-right">
+    <li>
+      <button type="submit" class="btn btn-success navbar-btn">
+          <fa *ngIf="loading" name="refresh" animation="spin"></fa>
+        Guardar
+      </button>
+    </li>
+  </ul>
+</form>
+<br>

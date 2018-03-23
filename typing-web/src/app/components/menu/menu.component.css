@@ -1,0 +1,16 @@
+.logo{
+    max-height: 32px;
+}
+.navbar, .navbar .nav-item .nav-link{
+    /* background: rgba(246, 164, 25) !important;     */
+    /* background: #ee7501!important; */
+    /* background: #A32120!important; */
+    background: #007EB7!important;
+    color:#fff !important;
+    
+}
+
+.navbar .nav-item:hover, .navbar .nav-item:hover .nav-link{
+    background: rgb(0, 126, 183,  0.7) !important;
+    border-bottom: 1px #fff solid;
+}

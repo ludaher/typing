@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    background-color: #007EB7;    
+    /* background-image: linear-gradient(#F8BF5D, #ee7501, #F6A419, #ee7501,#F6A419, #F8BF5D); */
+    /* font-size: 0.9em; */
+}
+.navbar{
+    padding: 0rem 1rem;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.card.main-container{
+    /* background-color: rgba(246, 164, 25, 0.5) ;  */
+    background: rgba(255, 255, 255, 0.7) ;    
+    margin: 1% 3% 0% 3%;
+    /*padding: 0,30px,30px,30px;*/
+    /* border: 1px solid #fff; */
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    height: 93%;
+
+    box-shadow: 5px 5px 0 #534f57;
+    -webkit-box-shadow: 5px 5px 0 #534f57;
+    -moz-box-shadow: 5px 5px 0 #534f57;
+}
+
+.card.main-container>.card-block, .full-height{
+    overflow: auto;
+    height: 100%;
+    background: #fff;
+}
+.card.main-container>.card-header{
+    padding: 0;
+}
+
+.card.main-container>.card-header .title{
+    padding: 0.75rem 1.25rem;
+}
+
+.card.main-container>.card-header .alert{
+    margin-bottom:0;
+    margin: 5px;
+}
+
+.transparent{
+    background: transparent;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+.form-control,.input-group-addon, .btn {
+    border-color: #ced4da;
+    box-shadow: 1px 1px 0px #ced4da;
+}
+
+.has-success .form-control, .has-success .col-form-label, .has-success .custom-control, .has-success .form-check-label, .has-success .form-control-feedback, .has-success .form-control-label, .has-success .input-group-addon  {
+    color: #5cb85c;
+}
+.has-warning .form-control, .has-warning .col-form-label, .has-warning .custom-control, .has-warning .form-check-label, .has-warning .form-control-feedback, .has-warning .form-control-label, .has-warning .input-group-addon  {
+    color: #f0ad4e;
+}
+.has-danger label, .has-danger .form-control, .has-danger .col-form-label, .has-danger .custom-control, .has-danger .form-check-label, .has-danger .form-control-feedback, .has-danger .form-control-label, .has-danger .input-group-addon {
+    color: #d9534f;
+}
+
+.has-success .form-control, .has-success .input-group-addon {
+    border-color: #5cb85c;
+    box-shadow: 1px 1px 0px #5cb85c;
+}
+.has-warning .form-control, .has-warning .input-group-addon  {
+    border-color: #f0ad4e;
+    box-shadow: 1px 1px 0px #f0ad4e;
+}
+.has-danger .form-control, .has-danger .input-group-addon  {
+    border-color: #d9534f;
+    box-shadow: 1px 1px 0px #d9534f;
+}
+
+.ng2-pdf-viewer-container{
+    overflow-x: initial !important;
+}
+
+.form-group label{
+    margin: 0;
+}
+
+.form-control{
+    padding: 0.1rem 0.75rem
+}
+select.form-control:not([size]):not([multiple]){
+    height: calc(1.7rem + 2px);
+}
+
+a{
+    cursor: pointer;    
+}
+
+.table th, .table td{
+    padding: 0.5rem;
+}
+.table th a{
+    text-decoration: underline !important;
+}
+
+
+.filter th{
+    padding:0;
+}
+.filter th input, .filter th select{
+    width: 95%;
+    height: 25px;
+}
+
+.bg-default
+{
+    background-color: #e6e6ff;
+}
+
+input[type="file"]{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.card-header .btn{
+    padding: 0.2rem 1rem;
+}
+
+.input-group .input-group-addon, .input-group .btn, .btn {
+    padding: 0.3rem 0.75rem;
+}
+
+.progress .input-group-addon, .progress .btn{
+    font-size: 0.75rem;
+    padding: 0.1rem 0.75rem;
+}

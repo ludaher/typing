@@ -1,0 +1,50 @@
+<table class="table table-hover ng-scope table-bordered">
+  <thead>
+    <tr class="">
+      <th class="text-right">
+        <a (click)="order('CustomerId')" title="Ordenar">
+          Identificación
+          <fa name="angle-down" *ngIf="orderColumn == 'CustomerId' && descendingOrder == true"></fa>
+          <fa name="angle-up" *ngIf="orderColumn == 'CustomerId' && descendingOrder == false"></fa>
+        </a>
+      </th>
+      <th class="">
+        <a (click)="order('Name')" title="Ordenar">
+          Nombre
+          <fa name="angle-down" *ngIf="orderColumn == 'Name' && descendingOrder == true"></fa>
+          <fa name="angle-up" *ngIf="orderColumn == 'Name' && descendingOrder == false"></fa>
+        </a>
+      </th>
+      <th class="d-none d-sm-table-cell">
+        <a (click)="order('ModifiedOn')" title="Ordenar">
+          Última modificación
+          <fa name="angle-down" *ngIf="orderColumn == 'ModifiedOn' && descendingOrder == true"></fa>
+          <fa name="angle-up" *ngIf="orderColumn == 'ModifiedOn' && descendingOrder == false"></fa>
+        </a>
+      </th>
+    </tr>
+    <tr class="filter">
+      <th class="text-right">
+        <input width="100%" type="text" class="text-right" [(ngModel)]="idFilter" (keyup.enter)="filter()" />
+      </th>
+      <th class="">
+        <input width="100%" type="text" [(ngModel)]="nameFilter" (keyup.enter)="filter()" />
+      </th>
+      <th class="d-none d-sm-table-cell">
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of listOfData" (click)="clickRow(data.customerId)">
+      <td class="text-right">
+        {{data.customerId}}
+      </td>
+      <td class="">
+        {{data.name}}
+      </td>
+      <td class="d-none d-sm-table-cell">
+        {{data.modifiedOn}}
+      </td>
+    </tr>
+  </tbody>
+</table>

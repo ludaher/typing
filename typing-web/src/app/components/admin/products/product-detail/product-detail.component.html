@@ -1,0 +1,93 @@
+<div class="card fill">
+  <div class="card-header" style="padding: 0;">
+    <div *ngIf="!pdfLoaded" class="progress">
+      <div class="progress-bar progress-bar-striped active progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100" style="width:100%">
+        Cargando...
+      </div>
+    </div>
+    <div *ngIf="pdfLoaded" class="progress">
+      <div class="progress-bar  bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+        página {{scrollTop}} / {{this.product.templateHeight}}
+      </div>
+    </div>
+  </div>
+  <div class="card-block" #pdfPanel (scroll)="onScroll($event)">
+    <!-- <progressbar class="progress progress-striped progress-animated" [max]="pdfSize" [value]="pdfSizeLoaded">
+        <span style="color:white; white-space:nowrap;">{{pdfSizeLoaded}} / {{pdfSize}}</span>
+      </progressbar> -->
+    <div #pdfContent [ngClass]="rotation" #pdfContainer>
+      <pdf-viewer [src]="pdfSrc" [render-text]="true" style="display: block;" [show-all]="true" [render-text]="false" [stick-to-page]="false"
+        [original-size]="false" [fit-to-page]="true" [zoom]='1' (after-load-complete)="onLoadPdfComplete($event)" (rotation)="pdfRotate"
+        (page-rendered)="pageRendered($event)" #pdfViewer>
+      </pdf-viewer>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="input-group tabs">
+      <button type="button" class="btn btn-sm btn-primary">Producto</button>
+      <button type="button" class="btn btn-sm btn-default">Sec.1</button>
+      <button type="button" class="btn btn-sm btn-default">Sec.2</button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="form-group col-md-12">
+          <div class="input-group">
+            <label class="input-group-addon" for="documentalTypesFile">Seleccione un archivo</label>
+            <input type="text" form-control class="form-control " disabled="disabled" [(ngModel)]="fileName" />
+            <button type="button" class="btn btn-sm btn-danger" (click)="clearFile()">X</button>
+          </div>
+          <input type="file" accept=".pdf" class="form-control" (change)="onFileChange($event)" #fileInput id="documentalTypesFile">
+        </div>
+      </div>
+      <form method="post" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+        <div class="row">
+          <div class="form-group col-md-5" [ngClass]="{ 'has-danger': f.submitted && (product.customerId == '0' || customerName.invalid) }">
+            <label for="productName">Cliente *</label>
+            <div class="input-group">
+              <input type="text" class="form-control" maxlength="50" required="required" [(ngModel)]="product.customerId" name="customerId"
+                id="customerId" #customerId="ngModel" disabled="disabled">
+              <input type="text" class="form-control" maxlength="50" required="required" [(ngModel)]="product.customerName" name="customerName"
+                id="customerName" #customerName="ngModel" [typeahead]="customers" typeaheadOptionField="Name" (typeaheadOnSelect)="onSelectCustomer($event)"
+                (typeaheadNoResults)="OnCustomersNoResult($event)" style="width:50%" autocomplete="off">
+              <label class="input-group-addon">
+                <fa name="list-ul"></fa>
+              </label>
+            </div>
+          </div>
+          <div class="form-group col-md-3" [ngClass]="{ 'has-danger': f.submitted && productName.invalid }">
+            <label for="productName">Nombre *</label>
+            <input type="text" class="form-control" maxlength="50" required="required" [(ngModel)]="product.name" name="productName"
+              id="productName" #productName="ngModel">
+          </div>
+          <div class="form-group col-md-4" [ngClass]="{ 'has-danger': f.submitted && productDescription.invalid }">
+            <label for="productDescription">Descripción</label>
+            <input type="text" class="form-control" [(ngModel)]="product.description" maxlength="150" name="productDescription" #productDescription="ngModel">
+          </div>
+          <div class="form-group col-md-3" [ngClass]="{ 'has-danger': f.submitted && requiredCaptures.invalid }">
+            <label for="requiredCaptures">Digitaciones</label>
+            <div class="input-group">
+              <input type="text" class="form-control" [(ngModel)]="product.requiredCaptures" maxlength="50" name="requiredCaptures" #requiredCaptures="ngModel"
+                required [typeahead]="captures" autocomplete="off" (typeaheadNoResults)="OnCapturesNoResult($event)">
+              <label class="input-group-addon" for="documentalTypesFile">
+                <fa name="list-ul"></fa>
+              </label>
+            </div>
+          </div>
+          <div class="form-group col-md-1" [ngClass]="{ 'has-danger': f.submitted && productActive.invalid }">
+            <label for="productActive">Activo</label>
+            <input type="checkbox" class="form-control" [(ngModel)]="product.active" maxlength="50" name="productActive" #productActive="ngModel">
+          </div>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <button type="submit" class="btn btn-success navbar-btn">
+              <fa *ngIf="loading" name="refresh" animation="spin"></fa>
+              Guardar
+            </button>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</div>
