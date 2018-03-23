@@ -1,0 +1,9 @@
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\bin\Release\netcoreapp2.0\PyS.Repository.DataAccess.deps.json
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\bin\Release\netcoreapp2.0\PyS.Repository.DataAccess.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\bin\Release\netcoreapp2.0\PyS.Repository.DataAccess.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.AssemblyInfo.cs
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.DataAccess\obj\Release\netcoreapp2.0\PyS.Repository.DataAccess.pdb

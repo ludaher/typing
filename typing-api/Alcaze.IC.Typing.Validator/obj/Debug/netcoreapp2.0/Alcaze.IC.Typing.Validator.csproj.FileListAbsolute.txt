@@ -1,0 +1,17 @@
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.deps.json
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.API.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DTO.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.API.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DTO.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\bin\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.csproj.CoreCompileInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.AssemblyInfoInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.AssemblyInfo.cs
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Validator\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Validator.pdb

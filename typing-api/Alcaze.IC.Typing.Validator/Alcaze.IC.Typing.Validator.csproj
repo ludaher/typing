@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alcaze.API\Alcaze.API.csproj" />
+    <ProjectReference Include="..\Alcaze.IC.Typing.DAL\Alcaze.IC.Typing.DAL.csproj" />
+    <ProjectReference Include="..\Alcaze.IC.Typing.DTO\Alcaze.IC.Typing.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.deps.json
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DTO.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.DTO.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\bin\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.AssemblyInfoInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.AssemblyInfo.cs
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.DAL\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.DAL.pdb

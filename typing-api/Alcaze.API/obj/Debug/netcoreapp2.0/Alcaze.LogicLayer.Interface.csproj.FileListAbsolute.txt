@@ -1,0 +1,11 @@
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.AssemblyInfoInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.AssemblyInfo.cs
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\bin\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.deps.json
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\bin\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\bin\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\bin\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\bin\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typification\typification-api\Alcaze.LogicLayer.Interface\obj\Debug\netcoreapp2.0\Alcaze.LogicLayer.Interface.pdb

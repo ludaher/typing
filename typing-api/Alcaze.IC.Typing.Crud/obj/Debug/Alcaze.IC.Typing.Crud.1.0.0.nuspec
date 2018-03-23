@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Alcaze.IC.Typing.Crud</id>
+    <version>1.0.0</version>
+    <authors>Alcaze.IC.Typing.Crud</authors>
+    <owners>Alcaze.IC.Typing.Crud</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Alcaze.API" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Alcaze.IC.Typing.DAL" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Crud\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Crud.dll" target="lib\netcoreapp2.0\Alcaze.IC.Typing.Crud.dll" />
+  </files>
+</package>

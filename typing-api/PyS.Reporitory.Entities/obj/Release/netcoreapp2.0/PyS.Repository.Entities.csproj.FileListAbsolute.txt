@@ -1,0 +1,13 @@
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\PyS.Repository.Entities.deps.json
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\PyS.Repository.Entities.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\PyS.Repository.Entities.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.AssemblyInfoInputs.cache
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.AssemblyInfo.cs
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Release\netcoreapp2.0\PyS.Repository.Entities.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\Alcaze.API.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\Alcaze.Helper.dll
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\Alcaze.API.pdb
+C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Release\netcoreapp2.0\Alcaze.Helper.pdb

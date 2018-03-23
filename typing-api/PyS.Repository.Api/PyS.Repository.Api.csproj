@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.5.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.5.0" />
+    <PackageReference Include="MongoDB.Driver.GridFS" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alcaze.API\Alcaze.API.csproj" />
+    <ProjectReference Include="..\Alcaze.Helper\Alcaze.Helper.csproj" />
+    <ProjectReference Include="..\PyS.Reporitory.Entities\PyS.Repository.Entities.csproj" />
+    <ProjectReference Include="..\PyS.Repository.CrudImplementation\PyS.Repository.Crud.csproj" />
+    <ProjectReference Include="..\PyS.Repository.DataAccess\PyS.Repository.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
