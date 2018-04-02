@@ -13511,11 +13511,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Api\\Alcaze.IC.Typing.Api.csproj",
+      "projectUniqueName": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Api\\Alcaze.IC.Typing.Api.csproj",
       "projectName": "Alcaze.IC.Typing.Api",
-      "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Api\\Alcaze.IC.Typing.Api.csproj",
+      "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Api\\Alcaze.IC.Typing.Api.csproj",
       "packagesPath": "C:\\Users\\Lucho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Api\\obj\\",
+      "outputPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13534,23 +13534,23 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.DTO\\Alcaze.IC.Typing.DTO.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.DTO\\Alcaze.IC.Typing.DTO.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.DTO\\Alcaze.IC.Typing.DTO.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.DTO\\Alcaze.IC.Typing.DTO.csproj"
             },
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj"
             },
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Crud\\Alcaze.IC.Typing.Crud.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Crud\\Alcaze.IC.Typing.Crud.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Crud\\Alcaze.IC.Typing.Crud.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Crud\\Alcaze.IC.Typing.Crud.csproj"
             },
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Processor\\Alcaze.IC.Typing.Processor.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Processor\\Alcaze.IC.Typing.Processor.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Processor\\Alcaze.IC.Typing.Processor.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Processor\\Alcaze.IC.Typing.Processor.csproj"
             },
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Validator\\Alcaze.IC.Typing.Validator.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.IC.Typing.Validator\\Alcaze.IC.Typing.Validator.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Validator\\Alcaze.IC.Typing.Validator.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.Validator\\Alcaze.IC.Typing.Validator.csproj"
             },
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj"
             }
           }
         }

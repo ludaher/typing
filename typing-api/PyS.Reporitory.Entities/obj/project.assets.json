@@ -3828,11 +3828,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Reporitory.Entities\\PyS.Repository.Entities.csproj",
+      "projectUniqueName": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Reporitory.Entities\\PyS.Repository.Entities.csproj",
       "projectName": "PyS.Repository.Entities",
-      "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Reporitory.Entities\\PyS.Repository.Entities.csproj",
+      "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Reporitory.Entities\\PyS.Repository.Entities.csproj",
       "packagesPath": "C:\\Users\\Lucho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Reporitory.Entities\\obj\\",
+      "outputPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Reporitory.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3851,8 +3851,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj": {
-              "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj"
+            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj": {
+              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj"
             }
           }
         }

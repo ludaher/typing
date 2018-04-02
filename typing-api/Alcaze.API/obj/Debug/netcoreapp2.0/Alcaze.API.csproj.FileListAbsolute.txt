@@ -20,3 +20,14 @@ C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\T
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.AssemblyInfo.cs
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.dll
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\bin\Debug\netcoreapp2.0\Alcaze.API.deps.json
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\bin\Debug\netcoreapp2.0\Alcaze.API.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\bin\Debug\netcoreapp2.0\Alcaze.API.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\bin\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\bin\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.csprojResolveAssemblyReference.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.csproj.CoreCompileInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.AssemblyInfoInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.AssemblyInfo.cs
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.API\obj\Debug\netcoreapp2.0\Alcaze.API.pdb

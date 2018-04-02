@@ -23,3 +23,14 @@ C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\T
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.AssemblyInfo.cs
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.dll
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\bin\Debug\netcoreapp2.0\netcoreapp2.0\Alcaze.Helper.deps.json
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\bin\Debug\netcoreapp2.0\netcoreapp2.0\Alcaze.Helper.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\bin\Debug\netcoreapp2.0\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\bin\Debug\netcoreapp2.0\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\bin\Debug\netcoreapp2.0\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.csprojResolveAssemblyReference.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.csproj.CoreCompileInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.AssemblyInfoInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.AssemblyInfo.cs
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.Helper\obj\Debug\netcoreapp2.0\Alcaze.Helper.pdb

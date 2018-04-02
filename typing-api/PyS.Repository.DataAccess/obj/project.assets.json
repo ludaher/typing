@@ -13686,11 +13686,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Repository.DataAccess\\PyS.Repository.DataAccess.csproj",
+      "projectUniqueName": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Repository.DataAccess\\PyS.Repository.DataAccess.csproj",
       "projectName": "PyS.Repository.DataAccess",
-      "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Repository.DataAccess\\PyS.Repository.DataAccess.csproj",
+      "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Repository.DataAccess\\PyS.Repository.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Lucho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\PyS.Repository.DataAccess\\obj\\",
+      "outputPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\PyS.Repository.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

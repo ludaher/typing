@@ -164,7 +164,7 @@ namespace PyS.Repository.Api.Controllers
                 var fileStorage = await manager.Execute(new FileStorage() { Id = id });
                 if (fileStorage == null)
                     throw new LogicException("Archivo no encontrado");
-                Response.Headers.Add("Content-Length", fileStorage.Length.ToString());
+                //Response.Headers.Add("Content-Length", (fileStorage.Length*8).ToString());
                 return File(fileStorage.Data, MimeType(fileStorage.FileName), Path.GetFileName(fileStorage.FileName));
             }
         }
@@ -181,7 +181,7 @@ namespace PyS.Repository.Api.Controllers
                 var fileStorage = await manager.Execute(new FilterStorage() { Filter = conditions });
                 if (fileStorage == null)
                     throw new LogicException("Archivo no encontrado");
-                Response.Headers.Add("Content-Length", fileStorage.Length.ToString());
+                //Response.Headers.Add("Content-Length", (fileStorage.Length*8).ToString());
                 return File(fileStorage.Data, MimeType(fileStorage.FileName), Path.GetFileName(fileStorage.FileName));
             }
         }

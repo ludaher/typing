@@ -15,3 +15,20 @@ C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\T
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.AssemblyInfo.cs
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.dll
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.Crud.deps.json
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.Crud.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.Crud.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\Alcaze.API.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\Alcaze.Helper.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.DataAccess.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.Entities.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\Alcaze.API.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.Entities.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\PyS.Repository.DataAccess.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\bin\Debug\netcoreapp2.0\Alcaze.Helper.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.csprojResolveAssemblyReference.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.csproj.CoreCompileInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.AssemblyInfoInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.AssemblyInfo.cs
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\PyS.Repository.CrudImplementation\obj\Debug\netcoreapp2.0\PyS.Repository.Crud.pdb

@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj",
+      "projectUniqueName": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj",
       "projectName": "Alcaze.Helper",
-      "projectPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj",
+      "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.Helper\\Alcaze.Helper.csproj",
       "packagesPath": "C:\\Users\\Lucho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucho\\Documents\\En ejecución\\Proyectos\\Alcaze\\ImaginCrud2\\Desarrollo\\Typing\\typing-api\\Alcaze.Helper\\obj\\",
+      "outputPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
