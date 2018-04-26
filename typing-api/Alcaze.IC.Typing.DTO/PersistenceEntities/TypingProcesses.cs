@@ -1,6 +1,8 @@
 ﻿using Alcaze.IC.Typing.DTO.PersistenceEntities;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Alcaze.IC.Typing.DTO.PersistenceEntities
 {
@@ -8,21 +10,33 @@ namespace Alcaze.IC.Typing.DTO.PersistenceEntities
     {
         public TypingProcesses()
         {
-            FormDataHistories = new HashSet<FormDataHistories>();
-            FormDatas = new HashSet<FormDatas>();
-            ProductStatusHistories = new HashSet<ProductStatusHistories>();
+            CaptureHistories = new HashSet<CaptureHistory>();
+            Captures = new HashSet<Capture>();
+            ProductStateHistories = new HashSet<ProductStateHistory>();
         }
 
-        public string TypingProcessId { get; set; }
-        public int FormId { get; set; }
+        [Key]
+        //[Column(Order = 10)]
+        public int TypingProcessId { get; set; }
+        //[Key]
+        //[Column(Order = 20)]
+        [Required]
+        public int ProductId { get; set; }
+        [Required]
+        [Column(TypeName = "varchar(50)")]
+        public string FileName { get; set; }
+        [Required]
         public int TypingStatus { get; set; }
+        [Column(TypeName = "varchar(250)")]
         public string Observations { get; set; }
+        [Required]
         public int Priority { get; set; }
         public DateTime ProductionDate { get; set; }
 
-        public Forms Form { get; set; }
-        public ICollection<FormDataHistories> FormDataHistories { get; set; }
-        public ICollection<FormDatas> FormDatas { get; set; }
-        public ICollection<ProductStatusHistories> ProductStatusHistories { get; set; }
+        [ForeignKey("ProductId")]
+        public Product Product { get; set; }
+        public ICollection<CaptureHistory> CaptureHistories { get; set; }
+        public ICollection<Capture> Captures { get; set; }
+        public ICollection<ProductStateHistory> ProductStateHistories { get; set; }
     }
 }

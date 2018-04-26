@@ -6,7 +6,7 @@
 export const environment = {
   production: false,
   origin: 'http://localhost:61599',
-  repositoryOrigin: 'http://localhost:50465',
+  repositoryOrigin: 'http://localhost/PySRepository',
   cookie: 'test_cookie',
   clientSettings: {
     authority: 'http://216.69.181.183/IdentityServer/',

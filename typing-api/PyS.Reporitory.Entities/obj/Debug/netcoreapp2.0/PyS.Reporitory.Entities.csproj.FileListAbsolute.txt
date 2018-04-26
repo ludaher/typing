@@ -1,9 +1,0 @@
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Debug\netcoreapp2.0\PyS.Reporitory.Entities.deps.json
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Debug\netcoreapp2.0\PyS.Reporitory.Entities.dll
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\bin\Debug\netcoreapp2.0\PyS.Reporitory.Entities.pdb
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.csprojResolveAssemblyReference.cache
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.csproj.CoreCompileInputs.cache
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.AssemblyInfoInputs.cache
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.AssemblyInfo.cs
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.dll
-C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\PyS.Reporitory.Entities\obj\Debug\netcoreapp2.0\PyS.Reporitory.Entities.pdb

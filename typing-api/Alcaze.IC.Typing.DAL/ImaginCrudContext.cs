@@ -10,32 +10,32 @@ namespace Alcaze.IC.Typing.DAL
 {
     public partial class ImaginCrudContext : DbContext
     {
-        public virtual DbSet<Customers> Customers { get; set; }
-        public virtual DbSet<FieldDataSourceDetails> FieldDataSourceDetails { get; set; }
-        public virtual DbSet<FieldDataSources> FieldDataSources { get; set; }
-        public virtual DbSet<Fields> Fields { get; set; }
-        public virtual DbSet<FormDataDetails> FormDataDetails { get; set; }
-        public virtual DbSet<FormDataHistories> FormDataHistories { get; set; }
-        public virtual DbSet<FormDataHistoryDetails> FormDataHistoryDetails { get; set; }
-        public virtual DbSet<FormDatas> FormDatas { get; set; }
-        public virtual DbSet<Forms> Forms { get; set; }
-        public virtual DbSet<ProductStatusHistories> ProductStatusHistories { get; set; }
-        public virtual DbSet<Sections> Sections { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<FieldDataSourceDetail> FieldDataSourceDetails { get; set; }
+        public virtual DbSet<FieldDataSource> FieldDataSources { get; set; }
+        public virtual DbSet<Field> Fields { get; set; }
+        public virtual DbSet<CaptureDetail> CaptureDetails { get; set; }
+        public virtual DbSet<CaptureHistory> CaptureHistories { get; set; }
+        public virtual DbSet<CaptureHistoryDetail> CaptureHistoryDetails { get; set; }
+        public virtual DbSet<Capture> Captures { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<ProductStateHistory> ProductStateHistories { get; set; }
+        public virtual DbSet<Section> Sections { get; set; }
         public virtual DbSet<TypingProcesses> TypingProcesses { get; set; }
-        public virtual DbSet<UserInForms> UserInForms { get; set; }
+        public virtual DbSet<UserInProduct> UserInProduct { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(Configuration.Instance.GetConnectionString("ImaginCrud_Connection"));
-                optionsBuilder.UseSqlServer(@"Server=DESKTOP-S3RTP7K\LUCHO;Database=ImaginCrud;Trusted_Connection=True;");
+                //optionsBuilder.UseSqlServer(@"Server=DESKTOP-S3RTP7K\LUCHO;Database=ImaginCrud;Trusted_Connection=True;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Customers>(entity =>
+            modelBuilder.Entity<Customer>(entity =>
             {
                 entity.HasKey(e => e.CustomerId);
 
@@ -71,7 +71,7 @@ namespace Alcaze.IC.Typing.DAL
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<FieldDataSourceDetails>(entity =>
+            modelBuilder.Entity<FieldDataSourceDetail>(entity =>
             {
                 entity.HasKey(e => e.FieldDataSourceDetailId);
 
@@ -92,7 +92,7 @@ namespace Alcaze.IC.Typing.DAL
                     .HasConstraintName("FK_dbo.FieldDataSourceDetails_dbo.FieldDataSources_FieldDataSourceId");
             });
 
-            modelBuilder.Entity<FieldDataSources>(entity =>
+            modelBuilder.Entity<FieldDataSource>(entity =>
             {
                 entity.HasKey(e => e.FieldDataSourceId);
 
@@ -114,7 +114,7 @@ namespace Alcaze.IC.Typing.DAL
                 entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Fields>(entity =>
+            modelBuilder.Entity<Field>(entity =>
             {
                 entity.HasKey(e => e.FieldId);
 
@@ -169,31 +169,31 @@ namespace Alcaze.IC.Typing.DAL
                     .HasConstraintName("FK_dbo.Fields_dbo.Sections_SectionId");
             });
 
-            modelBuilder.Entity<FormDataDetails>(entity =>
+            modelBuilder.Entity<CaptureDetail>(entity =>
             {
-                entity.HasKey(e => new { e.FieldId, e.FormDataId });
+                entity.HasKey(e => new { e.FieldId, e.CaptureId });
 
-                entity.HasIndex(e => e.FormDataId)
-                    .HasName("IX_FormDataId");
+                entity.HasIndex(e => e.CaptureId)
+                    .HasName("IX_CaptureId");
 
                 entity.Property(e => e.Value)
                     .HasMaxLength(2000)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.FormData)
-                    .WithMany(p => p.FormDataDetails)
-                    .HasForeignKey(d => d.FormDataId)
-                    .HasConstraintName("FK_dbo.FormDataDetails_dbo.FormDatas_FormDataId");
+                entity.HasOne(d => d.Capture)
+                    .WithMany(p => p.CapturtDetails)
+                    .HasForeignKey(d => d.CaptureId)
+                    .HasConstraintName("FK_dbo.CaptureDetails_dbo.Captures_CaptureId");
             });
 
-            modelBuilder.Entity<FormDataHistories>(entity =>
+            modelBuilder.Entity<CaptureHistory>(entity =>
             {
-                entity.HasKey(e => e.FormDataId);
+                entity.HasKey(e => e.CaptureId);
 
-                entity.HasIndex(e => new { e.TypingProcessId, e.FormId })
-                    .HasName("IX_TypingProcessId_FormId");
+                entity.HasIndex(e => new { e.TypingProcessId, e.ProductId })
+                    .HasName("IX_TypingProcessId_ProductId");
 
-                entity.Property(e => e.FormDataId).ValueGeneratedNever();
+                entity.Property(e => e.CaptureId).ValueGeneratedNever();
 
                 entity.Property(e => e.CreatedBy)
                     .HasMaxLength(50)
@@ -213,34 +213,34 @@ namespace Alcaze.IC.Typing.DAL
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.TypingProcesses)
-                    .WithMany(p => p.FormDataHistories)
-                    .HasForeignKey(d => new { d.TypingProcessId, d.FormId })
-                    .HasConstraintName("FK_dbo.FormDataHistories_dbo.TypingProcesses_TypingProcessId_FormId");
+                    .WithMany(p => p.CaptureHistories)
+                    .HasForeignKey(d => new { d.TypingProcessId, d.ProductId })
+                    .HasConstraintName("FK_dbo.CaptureHistories_dbo.TypingProcesses_TypingProcessId_ProductId");
             });
 
-            modelBuilder.Entity<FormDataHistoryDetails>(entity =>
+            modelBuilder.Entity<CaptureHistoryDetail>(entity =>
             {
-                entity.HasKey(e => new { e.FieldId, e.FormDataId });
+                entity.HasKey(e => new { e.FieldId, e.CaptureId });
 
-                entity.HasIndex(e => e.FormDataId)
-                    .HasName("IX_FormDataId");
+                entity.HasIndex(e => e.CaptureId)
+                    .HasName("IX_CaptureId");
 
                 entity.Property(e => e.Value)
                     .HasMaxLength(2000)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.FormData)
-                    .WithMany(p => p.FormDataHistoryDetails)
-                    .HasForeignKey(d => d.FormDataId)
-                    .HasConstraintName("FK_dbo.FormDataHistoryDetails_dbo.FormDataHistories_FormDataId");
+                entity.HasOne(d => d.CaptureHistory)
+                    .WithMany(p => p.CaptureHistoryDetails)
+                    .HasForeignKey(d => d.CaptureId)
+                    .HasConstraintName("FK_dbo.CaptureHistoryDetails_dbo.CaptureHistories_CaptureId");
             });
 
-            modelBuilder.Entity<FormDatas>(entity =>
+            modelBuilder.Entity<Capture>(entity =>
             {
-                entity.HasKey(e => e.FormDataId);
+                entity.HasKey(e => e.CaptureId);
 
-                entity.HasIndex(e => new { e.TypingProcessId, e.FormId })
-                    .HasName("IX_TypingProcessId_FormId");
+                entity.HasIndex(e => new { e.TypingProcessId, e.ProductId })
+                    .HasName("IX_TypingProcessId_ProductId");
 
                 entity.Property(e => e.CreatedBy)
                     .HasMaxLength(50)
@@ -260,14 +260,14 @@ namespace Alcaze.IC.Typing.DAL
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.TypingProcesses)
-                    .WithMany(p => p.FormDatas)
-                    .HasForeignKey(d => new { d.TypingProcessId, d.FormId })
-                    .HasConstraintName("FK_dbo.FormDatas_dbo.TypingProcesses_TypingProcessId_FormId");
+                    .WithMany(p => p.Captures)
+                    .HasForeignKey(d => new { d.TypingProcessId, d.ProductId })
+                    .HasConstraintName("FK_dbo.Captures_dbo.TypingProcesses_TypingProcessId_ProductId");
             });
 
-            modelBuilder.Entity<Forms>(entity =>
+            modelBuilder.Entity<Product>(entity =>
             {
-                entity.HasKey(e => e.FormId);
+                entity.HasKey(e => e.ProductId);
 
                 entity.HasIndex(e => e.CustomerId)
                     .HasName("IX_CustomerId");
@@ -299,17 +299,17 @@ namespace Alcaze.IC.Typing.DAL
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Customer)
-                    .WithMany(p => p.Forms)
+                    .WithMany(p => p.Products)
                     .HasForeignKey(d => d.CustomerId)
-                    .HasConstraintName("FK_dbo.Forms_dbo.Customers_CustomerId");
+                    .HasConstraintName("FK_dbo.Products_dbo.Customers_CustomerId");
             });
             
-            modelBuilder.Entity<ProductStatusHistories>(entity =>
+            modelBuilder.Entity<ProductStateHistory>(entity =>
             {
-                entity.HasKey(e => e.ProductStatusHistoryId);
+                entity.HasKey(e => e.ProductStateHistoryId);
 
-                entity.HasIndex(e => new { e.TypingProcessId, e.FormId })
-                    .HasName("IX_TypingProcessId_FormId");
+                entity.HasIndex(e => new { e.TypingProcessId, e.ProductId })
+                    .HasName("IX_TypingProcessId_ProductId");
 
                 entity.Property(e => e.ModifiedBy)
                     .IsRequired()
@@ -329,17 +329,17 @@ namespace Alcaze.IC.Typing.DAL
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.TypingProcesses)
-                    .WithMany(p => p.ProductStatusHistories)
-                    .HasForeignKey(d => new { d.TypingProcessId, d.FormId })
-                    .HasConstraintName("FK_dbo.ProductStatusHistories_dbo.TypingProcesses_TypingProcessId_FormId");
+                    .WithMany(p => p.ProductStateHistories)
+                    .HasForeignKey(d => new { d.TypingProcessId, d.ProductId })
+                    .HasConstraintName("FK_dbo.ProductStateHistories_dbo.TypingProcesses_TypingProcessId_ProductId");
             });
 
-            modelBuilder.Entity<Sections>(entity =>
+            modelBuilder.Entity<Section>(entity =>
             {
                 entity.HasKey(e => e.SectionId);
 
-                entity.HasIndex(e => e.FormId)
-                    .HasName("IX_FormId");
+                entity.HasIndex(e => e.ProductId)
+                    .HasName("IX_ProductId");
 
                 entity.Property(e => e.CreatedBy)
                     .HasMaxLength(50)
@@ -358,18 +358,18 @@ namespace Alcaze.IC.Typing.DAL
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.Form)
+                entity.HasOne(d => d.Product)
                     .WithMany(p => p.Sections)
-                    .HasForeignKey(d => d.FormId)
-                    .HasConstraintName("FK_dbo.Sections_dbo.Forms_FormId");
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK_dbo.Sections_dbo.Products_ProductId");
             });
 
             modelBuilder.Entity<TypingProcesses>(entity =>
             {
-                entity.HasKey(e => new { e.TypingProcessId, e.FormId });
+                entity.HasKey(e => new { e.TypingProcessId, e.ProductId });
 
-                entity.HasIndex(e => e.FormId)
-                    .HasName("IX_FormId");
+                entity.HasIndex(e => e.ProductId)
+                    .HasName("IX_ProductId");
 
                 entity.Property(e => e.TypingProcessId)
                     .HasMaxLength(50)
@@ -394,27 +394,27 @@ namespace Alcaze.IC.Typing.DAL
 
                 entity.Property(e => e.ProductionDate).HasColumnType("datetime");
 
-                entity.HasOne(d => d.Form)
+                entity.HasOne(d => d.Product)
                     .WithMany(p => p.TypingProcesses)
-                    .HasForeignKey(d => d.FormId)
-                    .HasConstraintName("FK_dbo.TypingProcesses_dbo.Forms_FormId");
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK_dbo.TypingProcesses_dbo.Products_ProductId");
             });
 
-            modelBuilder.Entity<UserInForms>(entity =>
+            modelBuilder.Entity<UserInProduct>(entity =>
             {
-                entity.HasKey(e => new { e.UserFunction, e.UserName, e.FormId });
+                entity.HasKey(e => new { e.UserFunction, e.UserName, e.ProductId });
 
-                entity.HasIndex(e => e.FormId)
-                    .HasName("IX_FormId");
+                entity.HasIndex(e => e.ProductId)
+                    .HasName("IX_ProductId");
 
                 entity.Property(e => e.UserName)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.Form)
-                    .WithMany(p => p.UserInForms)
-                    .HasForeignKey(d => d.FormId)
-                    .HasConstraintName("FK_dbo.UserInForms_dbo.Forms_FormId");
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.UserInProducts)
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK_dbo.UserInProduct_dbo.Products_ProductId");
             });
         }
     }

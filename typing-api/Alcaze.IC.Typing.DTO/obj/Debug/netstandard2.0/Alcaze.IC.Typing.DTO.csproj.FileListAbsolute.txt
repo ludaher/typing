@@ -1,0 +1,13 @@
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.deps.json
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.csprojResolveAssemblyReference.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.csproj.CoreCompileInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.AssemblyInfoInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.AssemblyInfo.cs
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.DTO\obj\Debug\netstandard2.0\Alcaze.IC.Typing.DTO.pdb

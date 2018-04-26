@@ -1,8 +1,18 @@
 <div class="fill">
-  <div class="menu-container"  [hidden]="!logged">
+  <div class="menu-container" [hidden]="!logged">
     <app-menu></app-menu>
   </div>
   <div class="app-container">
     <router-outlet></router-outlet>
+  </div>
+  <div class="text" *ngIf="!logged">
+    CONECTANDO...
+  </div>
+  <div class="box" *ngIf="!logged">
+    <div class="comp"></div>
+    <div class="loader"></div>
+    <div class="con"></div>
+    <div class="byte"></div>
+    <div class="cloud"></div>
   </div>
 </div>

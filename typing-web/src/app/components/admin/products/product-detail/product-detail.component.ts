@@ -102,9 +102,11 @@ export class ProductDetailComponent extends BaseComponent {
 
   saveProduct() {
     if (this.product.templatePath === '') {
+      this.loading = false;
       this.error.emit('Debe cargar un archivo de ejemplo.');
+      return;
     }
-    if (this.product.formId === 0) {
+    if (this.product.productId === 0) {
       this.productService
         .add<Product>(this.product)
         .safeSubscribe(
@@ -137,14 +139,14 @@ export class ProductDetailComponent extends BaseComponent {
   }
 
 
-  loadDocumentalTypes(formId): void {
-    if (!formId) {
+  loadDocumentalTypes(productId): void {
+    if (!productId) {
       return;
     }
     this.loading = true;
     this.documentalTypes = undefined;
     this.documentalTypesService
-      .getList<any>(`formId,13,${formId}`, 'Value', true)
+      .getList<any>(`productId,13,${productId}`, 'Value', true)
       .safeSubscribe(
         this,
         result => {

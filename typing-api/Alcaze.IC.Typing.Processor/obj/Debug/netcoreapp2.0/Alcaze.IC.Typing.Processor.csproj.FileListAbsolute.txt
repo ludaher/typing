@@ -7,3 +7,11 @@ C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\T
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.dll
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.pdb
 C:\Users\Lucho\Documents\En ejecución\Proyectos\Alcaze\ImaginCrud2\Desarrollo\Typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.csprojResolveAssemblyReference.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.deps.json
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\bin\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.pdb
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.csproj.CoreCompileInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.AssemblyInfoInputs.cache
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.AssemblyInfo.cs
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.dll
+C:\Projects\Alcaze\ImaginCrud2\Desarrollo\typing\typing-api\Alcaze.IC.Typing.Processor\obj\Debug\netcoreapp2.0\Alcaze.IC.Typing.Processor.pdb

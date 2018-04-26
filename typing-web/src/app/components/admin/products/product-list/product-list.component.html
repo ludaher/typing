@@ -65,10 +65,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let prod of products" (click)="clickRow(prod.formId)">
+    <tr *ngFor="let prod of products" (click)="clickRow(prod.productId)">
 
       <td class="text-right">
-        {{prod.formId}}
+        {{prod.productId}}
       </td>
       <td class="">
         {{prod.name}}

@@ -13,6 +13,9 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Alcaze.Helper.Log;
+using Alcaze.IC.Typing.DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace Alcaze.IC.Typing.Api
 {
@@ -73,6 +76,23 @@ namespace Alcaze.IC.Typing.Api
                 })
                 .AddAuthorization()
                 .AddJsonFormatters();
+            _MigrateDataBase();
+        }
+
+        private void _MigrateDataBase()
+        {
+            Logger.Info("Iniciando migración");
+            try
+            {
+                using (var db = new ImaginCrudContext())
+                {
+                    db.Database.Migrate();
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error("Error ejecutando la migración de la base de datos", ex);
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,7 +102,6 @@ namespace Alcaze.IC.Typing.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseAuthentication();
             app.UseMvc();
         }

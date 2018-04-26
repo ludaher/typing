@@ -5,9 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Alcaze.API\Alcaze.API.csproj" />
     <ProjectReference Include="..\Alcaze.IC.Typing.DAL\Alcaze.IC.Typing.DAL.csproj" />
     <ProjectReference Include="..\Alcaze.IC.Typing.DTO\Alcaze.IC.Typing.DTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Alcaze.API">
+      <HintPath>..\libs\Alcaze.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Alcaze.Helper">
+      <HintPath>..\libs\Alcaze.Helper.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

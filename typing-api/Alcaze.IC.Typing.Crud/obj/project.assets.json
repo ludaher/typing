@@ -1543,7 +1543,7 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-      "System.Linq.Dynamic.Core/1.0.8.2": {
+      "System.Linq.Dynamic.Core/1.0.8.3": {
         "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.3.0",
@@ -2386,31 +2386,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Alcaze.API/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Alcaze.Helper": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "2.0.2",
-          "System.Linq.Dynamic.Core": "1.0.8.2"
-        },
-        "compile": {
-          "bin/placeholder/Alcaze.API.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alcaze.API.dll": {}
-        }
-      },
-      "Alcaze.Helper/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Alcaze.Helper.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alcaze.Helper.dll": {}
-        }
-      },
       "Alcaze.IC.Typing.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -2418,7 +2393,8 @@
           "Alcaze.IC.Typing.DTO": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
+          "System.Linq.Dynamic.Core": "1.0.8.3"
         },
         "compile": {
           "bin/placeholder/Alcaze.IC.Typing.DAL.dll": {}
@@ -2429,10 +2405,7 @@
       },
       "Alcaze.IC.Typing.DTO/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Alcaze.Helper": "1.0.0"
-        },
+        "framework": ".NETStandard,Version=v2.0",
         "compile": {
           "bin/placeholder/Alcaze.IC.Typing.DTO.dll": {}
         },
@@ -5352,91 +5325,27 @@
         "system.linq.nuspec"
       ]
     },
-    "System.Linq.Dynamic.Core/1.0.8.2": {
-      "sha512": "qbG0eA4az/dTCe2+8GDIiQi9SiOgmflw5Lp/idaTbv8j7W1nwMfLMqfRc28HSToqOSQPdRivPXvuUoY8zk1ljw==",
+    "System.Linq.Dynamic.Core/1.0.8.3": {
+      "sha512": "QUDnsaPg3A+sFAyZ3IR+JKa2yt5Muj0eb1f11riaZe4uksa3sH7XpN3xMdr5ciXAQuQmqXEnj0skt0HwLTDvcw==",
       "type": "package",
-      "path": "system.linq.dynamic.core/1.0.8.2",
+      "path": "system.linq.dynamic.core/1.0.8.3",
       "files": [
         "lib/net35/System.Linq.Dynamic.Core.dll",
-        "lib/net35/System.Linq.Dynamic.Core.pdb",
         "lib/net35/System.Linq.Dynamic.Core.xml",
         "lib/net40/System.Linq.Dynamic.Core.dll",
-        "lib/net40/System.Linq.Dynamic.Core.pdb",
         "lib/net40/System.Linq.Dynamic.Core.xml",
         "lib/net45/System.Linq.Dynamic.Core.dll",
-        "lib/net45/System.Linq.Dynamic.Core.pdb",
         "lib/net45/System.Linq.Dynamic.Core.xml",
         "lib/net46/System.Linq.Dynamic.Core.dll",
-        "lib/net46/System.Linq.Dynamic.Core.pdb",
         "lib/net46/System.Linq.Dynamic.Core.xml",
         "lib/netstandard1.3/System.Linq.Dynamic.Core.dll",
-        "lib/netstandard1.3/System.Linq.Dynamic.Core.pdb",
         "lib/netstandard1.3/System.Linq.Dynamic.Core.xml",
         "lib/netstandard2.0/System.Linq.Dynamic.Core.dll",
-        "lib/netstandard2.0/System.Linq.Dynamic.Core.pdb",
         "lib/netstandard2.0/System.Linq.Dynamic.Core.xml",
         "lib/uap10.0/System.Linq.Dynamic.Core.dll",
-        "lib/uap10.0/System.Linq.Dynamic.Core.pdb",
         "lib/uap10.0/System.Linq.Dynamic.Core.pri",
         "lib/uap10.0/System.Linq.Dynamic.Core.xml",
-        "src/System.Linq.Dynamic.Core/AssemblyBuilderFactory.cs",
-        "src/System.Linq.Dynamic.Core/Compatibility/CustomIntrospectionExtensions.cs",
-        "src/System.Linq.Dynamic.Core/Compatibility/CustomTypeBuilderExtensions.cs",
-        "src/System.Linq.Dynamic.Core/Compatibility/CustomTypeConverterExtensions.cs",
-        "src/System.Linq.Dynamic.Core/CustomTypeProviders/AbstractDynamicLinqCustomTypeProvider.cs",
-        "src/System.Linq.Dynamic.Core/CustomTypeProviders/DefaultDynamicLinqCustomTypeProvider.cs",
-        "src/System.Linq.Dynamic.Core/CustomTypeProviders/DynamicLinqTypeAttribute.cs",
-        "src/System.Linq.Dynamic.Core/CustomTypeProviders/IDynamicLinkTypeProvider.cs",
-        "src/System.Linq.Dynamic.Core/DefaultAssemblyHelper.cs",
-        "src/System.Linq.Dynamic.Core/DynamicClass.cs",
-        "src/System.Linq.Dynamic.Core/DynamicClassFactory.cs",
-        "src/System.Linq.Dynamic.Core/DynamicEnumerableAsyncExtensions.cs",
-        "src/System.Linq.Dynamic.Core/DynamicEnumerableExtensions.cs",
-        "src/System.Linq.Dynamic.Core/DynamicExpressionArgument.cs",
-        "src/System.Linq.Dynamic.Core/DynamicExpressionParser.cs",
-        "src/System.Linq.Dynamic.Core/DynamicOrdering.cs",
-        "src/System.Linq.Dynamic.Core/DynamicProperty.cs",
-        "src/System.Linq.Dynamic.Core/DynamicQueryableExtensions.cs",
-        "src/System.Linq.Dynamic.Core/Exceptions/ParseException.cs",
-        "src/System.Linq.Dynamic.Core/ExtensibilityPoint.cs",
-        "src/System.Linq.Dynamic.Core/Extensions/ExpandObjectExtensions.cs",
-        "src/System.Linq.Dynamic.Core/Extensions/LinqProviderExtensions.cs",
-        "src/System.Linq.Dynamic.Core/GroupResult.cs",
-        "src/System.Linq.Dynamic.Core/IAssemblyHelper.cs",
-        "src/System.Linq.Dynamic.Core/PagedResult.cs",
-        "src/System.Linq.Dynamic.Core/Parser/ConstantExpressionHelper.cs",
-        "src/System.Linq.Dynamic.Core/Parser/Constants.cs",
-        "src/System.Linq.Dynamic.Core/Parser/ExpressionHelper.cs",
-        "src/System.Linq.Dynamic.Core/Parser/ExpressionParser.cs",
-        "src/System.Linq.Dynamic.Core/Parser/ExpressionPromoter.cs",
-        "src/System.Linq.Dynamic.Core/Parser/KeywordsHelper.cs",
-        "src/System.Linq.Dynamic.Core/Parser/PredefinedTypesHelper.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedMethods/CompareConversionType.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedMethods/IEnumerableSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedMethods/IQueryableSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedMethods/MethodData.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedMethods/MethodFinder.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/IAddSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/IArithmeticSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/IEqualitySignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/ILogicalSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/INegationSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/INotSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/IRelationalSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/IShiftSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/SupportedOperands/ISubtractSignatures.cs",
-        "src/System.Linq.Dynamic.Core/Parser/TypeHelper.cs",
-        "src/System.Linq.Dynamic.Core/ParsingConfig.cs",
-        "src/System.Linq.Dynamic.Core/Properties/AssemblyInfo.cs",
-        "src/System.Linq.Dynamic.Core/Res.cs",
-        "src/System.Linq.Dynamic.Core/System.Linq.Dynamic.Core.csproj",
-        "src/System.Linq.Dynamic.Core/Tokenizer/TextParser.cs",
-        "src/System.Linq.Dynamic.Core/Tokenizer/Token.cs",
-        "src/System.Linq.Dynamic.Core/Tokenizer/TokenId.cs",
-        "src/System.Linq.Dynamic.Core/TypeConverterFactory.cs",
-        "src/System.Linq.Dynamic.Core/Validation/Check.cs",
-        "src/System.Linq.Dynamic.Core/Validation/CoreStrings.cs",
-        "system.linq.dynamic.core.1.0.8.2.nupkg.sha512",
+        "system.linq.dynamic.core.1.0.8.3.nupkg.sha512",
         "system.linq.dynamic.core.nuspec"
       ]
     },
@@ -7675,16 +7584,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Alcaze.API/1.0.0": {
-      "type": "project",
-      "path": "../Alcaze.API/Alcaze.API.csproj",
-      "msbuildProject": "../Alcaze.API/Alcaze.API.csproj"
-    },
-    "Alcaze.Helper/1.0.0": {
-      "type": "project",
-      "path": "../Alcaze.Helper/Alcaze.Helper.csproj",
-      "msbuildProject": "../Alcaze.Helper/Alcaze.Helper.csproj"
-    },
     "Alcaze.IC.Typing.DAL/1.0.0": {
       "type": "project",
       "path": "../Alcaze.IC.Typing.DAL/Alcaze.IC.Typing.DAL.csproj",
@@ -7698,7 +7597,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Alcaze.API >= 1.0.0",
       "Alcaze.IC.Typing.DAL >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -7736,9 +7634,6 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj": {
-              "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.API\\Alcaze.API.csproj"
-            },
             "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.DAL\\Alcaze.IC.Typing.DAL.csproj": {
               "projectPath": "C:\\Projects\\Alcaze\\ImaginCrud2\\Desarrollo\\typing\\typing-api\\Alcaze.IC.Typing.DAL\\Alcaze.IC.Typing.DAL.csproj"
             }

@@ -17,7 +17,7 @@ export class ProductsComponent extends ListComponent implements OnInit {
 
   customers: any;
   products: ProductProcess[];
-  orderColumn = 'FormId';
+  orderColumn = 'ProductId';
 
   /// Propiedades para el detalle
   ///

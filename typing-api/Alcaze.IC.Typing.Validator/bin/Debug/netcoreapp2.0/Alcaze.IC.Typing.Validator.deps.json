@@ -1,16 +1,17 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "75fb4f965cda2d8a9788814c20ebb0c6b70e7ff0"
+    "signature": "808f6d3e911e4ab532543c01ee7a7ed83638707a"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Alcaze.IC.Typing.Validator/1.0.0": {
         "dependencies": {
-          "Alcaze.API": "1.0.0",
           "Alcaze.IC.Typing.DAL": "1.0.0",
-          "Alcaze.IC.Typing.DTO": "1.0.0"
+          "Alcaze.IC.Typing.DTO": "1.0.0",
+          "Alcaze.API": "1.0.0.0",
+          "Alcaze.Helper": "1.0.0.0"
         },
         "runtime": {
           "Alcaze.IC.Typing.Validator.dll": {}
@@ -937,7 +938,7 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
-      "System.Linq.Dynamic.Core/1.0.8.2": {
+      "System.Linq.Dynamic.Core/1.0.8.3": {
         "dependencies": {
           "System.Collections.Concurrent": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
@@ -1492,38 +1493,31 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
-      "Alcaze.API/1.0.0": {
-        "dependencies": {
-          "Alcaze.Helper": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "2.0.2",
-          "System.Linq.Dynamic.Core": "1.0.8.2"
-        },
-        "runtime": {
-          "Alcaze.API.dll": {}
-        }
-      },
-      "Alcaze.Helper/1.0.0": {
-        "runtime": {
-          "Alcaze.Helper.dll": {}
-        }
-      },
       "Alcaze.IC.Typing.DAL/1.0.0": {
         "dependencies": {
           "Alcaze.IC.Typing.DTO": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
+          "System.Linq.Dynamic.Core": "1.0.8.3"
         },
         "runtime": {
           "Alcaze.IC.Typing.DAL.dll": {}
         }
       },
       "Alcaze.IC.Typing.DTO/1.0.0": {
-        "dependencies": {
-          "Alcaze.Helper": "1.0.0"
-        },
         "runtime": {
           "Alcaze.IC.Typing.DTO.dll": {}
+        }
+      },
+      "Alcaze.API/1.0.0.0": {
+        "runtime": {
+          "Alcaze.API.dll": {}
+        }
+      },
+      "Alcaze.Helper/1.0.0.0": {
+        "runtime": {
+          "Alcaze.Helper.dll": {}
         }
       }
     }
@@ -2185,12 +2179,12 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
-    "System.Linq.Dynamic.Core/1.0.8.2": {
+    "System.Linq.Dynamic.Core/1.0.8.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qbG0eA4az/dTCe2+8GDIiQi9SiOgmflw5Lp/idaTbv8j7W1nwMfLMqfRc28HSToqOSQPdRivPXvuUoY8zk1ljw==",
-      "path": "system.linq.dynamic.core/1.0.8.2",
-      "hashPath": "system.linq.dynamic.core.1.0.8.2.nupkg.sha512"
+      "sha512": "sha512-QUDnsaPg3A+sFAyZ3IR+JKa2yt5Muj0eb1f11riaZe4uksa3sH7XpN3xMdr5ciXAQuQmqXEnj0skt0HwLTDvcw==",
+      "path": "system.linq.dynamic.core/1.0.8.3",
+      "hashPath": "system.linq.dynamic.core.1.0.8.3.nupkg.sha512"
     },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",
@@ -2507,16 +2501,6 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
-    "Alcaze.API/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Alcaze.Helper/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Alcaze.IC.Typing.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2524,6 +2508,16 @@
     },
     "Alcaze.IC.Typing.DTO/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alcaze.API/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alcaze.Helper/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -12,13 +12,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Alcaze.IC.Typing.Validator.PersistenceEntities
 {
-    public class Customers_Validator : ICrudValidator<Customers>
+    public class Customers_Validator : ICrudValidator<Customer>
     {
-        public void Delete(Customers entity)
+        public void Delete(Customer entity)
         {
         }
 
-        public async Task DeleteAsync(Customers entity)
+        public async Task DeleteAsync(Customer entity)
         {
         }
 
@@ -34,7 +34,7 @@ namespace Alcaze.IC.Typing.Validator.PersistenceEntities
         {
         }
 
-        public void Insert(Customers entity)
+        public void Insert(Customer entity)
         {
             using (var ctx = new ImaginCrudContext())
             {
@@ -43,7 +43,7 @@ namespace Alcaze.IC.Typing.Validator.PersistenceEntities
             }
         }
 
-        public void Insert(List<Customers> entity)
+        public void Insert(List<Customer> entity)
         {
             using(var ctx = new ImaginCrudContext())
             {
@@ -56,7 +56,7 @@ namespace Alcaze.IC.Typing.Validator.PersistenceEntities
             }
         }
 
-        public async Task InsertAsync(Customers entity)
+        public async Task InsertAsync(Customer entity)
         {
             using (var ctx = new ImaginCrudContext())
             {
@@ -65,7 +65,7 @@ namespace Alcaze.IC.Typing.Validator.PersistenceEntities
             }
         }
 
-        public async Task InsertAsync(List<Customers> entity)
+        public async Task InsertAsync(List<Customer> entity)
         {
             using (var ctx = new ImaginCrudContext())
             {
@@ -78,15 +78,15 @@ namespace Alcaze.IC.Typing.Validator.PersistenceEntities
             }
         }
 
-        public void Update(Customers entity)
+        public void Update(Customer entity)
         {
         }
 
-        public async Task UpdateAsync(Customers entity)
+        public async Task UpdateAsync(Customer entity)
         {
         }
 
-        public async Task UpdateAsync(List<Customers> entity)
+        public async Task UpdateAsync(List<Customer> entity)
         {
         }
     }
